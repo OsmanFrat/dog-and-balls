@@ -1,0 +1,429 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683992184209183, "dur":1587, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184210776, "dur":162, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683992184210980, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683992184211006, "dur":477, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683992184211534, "dur":1434, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184212968, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502722, "dur":226, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502949, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502963, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502967, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502979, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502982, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502990, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184502993, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184503003, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184503023, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184503038, "dur":2164, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683992184212253, "dur":725, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184212981, "dur":7650, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184220643, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683992184220652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184222232, "dur":504, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683992184222743, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683992184222821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184223121, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683992184226337, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683992184226552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184226924, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683992184229192, "dur":1641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683992184230837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184230847, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683992184233443, "dur":1293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683992184234740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184234752, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683992184236251, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683992184236509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184236519, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1683992184240149, "dur":33170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683992184273328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184273337, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683992184275822, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184276070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184276501, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184277876, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184278113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184278186, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184279588, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184279759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184279767, "dur":7935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184287768, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184287975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184287983, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184289123, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184289378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184289387, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184290535, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184290833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184290843, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184292124, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184292314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184292322, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184293929, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184294278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184294290, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184295932, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184296110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184296119, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184297704, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184297906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184297915, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184299116, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184299318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184299326, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184303869, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184304185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184304193, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184305713, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184305899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184305908, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184307363, "dur":2162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184309530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184309553, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184312978, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184313182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184313190, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184314560, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184314982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184314992, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184316664, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184316894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184316904, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184318332, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184318551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184318559, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184319951, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184320283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184320293, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184322806, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184323062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184323113, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184324739, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184324923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184324932, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184327218, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184327533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184327543, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184329048, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184329447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184329455, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184331229, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184331441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184331451, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184333270, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184333508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184333518, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184337822, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184338038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184338079, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184339705, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184339942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184339953, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184343763, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184344058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184344068, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184345893, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184346137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184346148, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184347762, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184347979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184347988, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184350057, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184350410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184350419, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184352573, "dur":2641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184355219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184355229, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184357824, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184358073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184358082, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184360546, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184360714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184360722, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184362216, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184362511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184362520, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184365376, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184365761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184365775, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184368180, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184368948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184368956, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184370861, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184371320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184371332, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184373390, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184374202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184374213, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184377006, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184377676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184377685, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184379398, "dur":1811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184381214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184381225, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184384310, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184384708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184384720, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184386704, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184386931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184386940, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184389243, "dur":4140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184393387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184393397, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184397909, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184398233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184398245, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184400508, "dur":8874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184409387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683992184409397, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683992184415164, "dur":87529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184212313, "dur":673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184212987, "dur":7886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184220874, "dur":1451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683992184222330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184223434, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683992184226389, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683992184227577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184227588, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683992184229674, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683992184229912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184230020, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683992184232390, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683992184232653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184233372, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683992184235572, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683992184235803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184235816, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1683992184238439, "dur":15947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184254391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184254703, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184258759, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683992184259817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184259823, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683992184262787, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683992184262955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184263322, "dur":28264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1683992184291647, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184292003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184292014, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184293512, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184293685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184293693, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184295416, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184295588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184295596, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184297040, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184297247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184297256, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184298797, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184299047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184299056, "dur":4379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184303488, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184303661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184303670, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184305222, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184305390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184305398, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184306794, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184307032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184307040, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184308291, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184308785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184308792, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184310600, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184310975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184310987, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184313364, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184313621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184313630, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184315104, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184315348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184315356, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184316857, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184317275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184317284, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184318798, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184318987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184318997, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184320741, "dur":1621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184322367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184322378, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184324588, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184324807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184324817, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184327165, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184327478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184327489, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184329104, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184329478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184329487, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184331267, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184331696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184331705, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184333796, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184333967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184333976, "dur":4493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184338533, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184338750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184338759, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184340226, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184340654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184340663, "dur":3536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184344266, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184344859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184344869, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184346278, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184346465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184346474, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184347993, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184348171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184348179, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184350170, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184350382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184350392, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184352482, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184352653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184352662, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184353971, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184354146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184354156, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184355554, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184355759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184355768, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184357278, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184357458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184357467, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184360206, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184360434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184360444, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184361864, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184362317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184362327, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184365445, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184365673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184365720, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184368080, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184368312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184368323, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184370272, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184371401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184371411, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184373742, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184374187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184374197, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184376728, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184376959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184376969, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184378698, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184379378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184379416, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184381263, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184381646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184381655, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184384609, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184384969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184384980, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184386894, "dur":1020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184387919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184387928, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184390284, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184390480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184390489, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184391885, "dur":2309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184394199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184394211, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184397827, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184398515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184398525, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184401259, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184401429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184401439, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683992184403286, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683992184403351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184403495, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1683992184405808, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683992184405988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184405997, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683992184407542, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683992184407599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184407607, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683992184409157, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683992184409229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683992184409267, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683992184411666, "dur":91029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184212431, "dur":565, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184212997, "dur":7636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184220643, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1683992184222088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184223477, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1683992184226677, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683992184226891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184227008, "dur":3331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683992184230414, "dur":1404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683992184231823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184231835, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683992184233747, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683992184233998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184234130, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683992184235969, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683992184236180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184236192, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1683992184238779, "dur":240258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683992184479044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683992184479054, "dur":23559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683992184502671, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1683992184502676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184212543, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184213003, "dur":7868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184220873, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683992184221207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184223854, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683992184227102, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683992184227308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184228188, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683992184230623, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683992184230839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184230852, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683992184234805, "dur":1192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683992184236003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184236015, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683992184238763, "dur":122875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184361643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184361751, "dur":9705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184371528, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184371984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184371993, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184373890, "dur":6193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184380128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184380139, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184385117, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184385476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184385547, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184387365, "dur":5139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184392510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184392522, "dur":5045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184397650, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184398140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184398151, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184400840, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184401398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184401407, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683992184403485, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683992184403746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184403756, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683992184405547, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1683992184405720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184405728, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1683992184407310, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683992184407378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184407386, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683992184408974, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683992184409052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184409060, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683992184411497, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683992184411711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683992184411721, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/papat/repos/dog-and-balls/dog-and-balls-game/dog-and-balls_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683992184413407, "dur":89290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683992184507031, "dur":2386, "ph":"X", "name": "ProfilerWriteOutput" }
+,
